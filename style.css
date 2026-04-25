@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+.hero{
+    padding: 100px;
+    background-image:url('images/title background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+.card{
+    box-shadow: 0 0 10px lightgray;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+#cart {
+    background-image: url('images/cart.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+    
+.contact-section {
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: white;
+
+}
